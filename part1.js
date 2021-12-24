@@ -1,8 +1,4 @@
-// // Tutorial source:
-// https://dev.to/freakcdev297/creating-a-blockchain-in-60-lines-of-javascript-5fka
-// https://github.com/nguyenphuminh/JeChain
-// https://www.youtube.com/watch?v=cFx6DCw0D3Q
-
+// proof of work blockchain
 // data must be immutable(will never change or cannot be changed) and un-hackable
 
 const crypto = require('crypto');
@@ -76,6 +72,7 @@ class Blockchain {
   }
 }
 
+// Test
 const NewChain = new Blockchain();
 NewChain.addBlock(new Block(Date.now().toString(), ['Hello', 'World!']));
 NewChain.addBlock(new Block(Date.now().toString(), ['Hello', 'World1!']));
@@ -84,7 +81,6 @@ NewChain.addBlock(new Block(Date.now().toString(), ['Hello', 'World3!']));
 NewChain.addBlock(new Block(Date.now().toString(), ['Hello', 'World4!']));
 NewChain.addBlock(new Block(Date.now().toString(), ['Hello', 'World5!']));
 console.log(NewChain);
-// console.log(NewChain.chain);
 
 // // isValid() test while this.chain.push(block):
 // console.log(NewChain.chain);

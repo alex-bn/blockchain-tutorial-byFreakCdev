@@ -1,0 +1,23 @@
+{
+  "name": "proof-of-work-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "blockchain.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-bn/blockchain-tutorial-byFreakCdev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-bn/blockchain-tutorial-byFreakCdev/issues"
+  },
+  "homepage": "https://github.com/alex-bn/blockchain-tutorial-byFreakCdev#readme",
+  "dependencies": {
+    "elliptic": "^6.5.4"
+  }
+}
