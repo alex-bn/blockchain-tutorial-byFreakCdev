@@ -72,7 +72,7 @@ class Blockchain {
   }
 }
 
-// Test
+// Test difficulty:
 const NewChain = new Blockchain();
 NewChain.addBlock(new Block(Date.now().toString(), ['Hello', 'World!']));
 NewChain.addBlock(new Block(Date.now().toString(), ['Hello', 'World1!']));
@@ -82,7 +82,7 @@ NewChain.addBlock(new Block(Date.now().toString(), ['Hello', 'World4!']));
 NewChain.addBlock(new Block(Date.now().toString(), ['Hello', 'World5!']));
 console.log(NewChain);
 
-// // isValid() test while this.chain.push(block):
+// Test isValid() method while this.chain.push(block):
 // console.log(NewChain.chain);
 // console.log(NewChain.isValid());
 // NewChain.chain[1].data = ['modified data'];

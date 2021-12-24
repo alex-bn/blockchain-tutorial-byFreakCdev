@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/alex-bn/blockchain-tutorial-byFreakCdev#readme",
   "dependencies": {
-    "elliptic": "^6.5.4"
+    "elliptic": "^6.5.4",
+    "ws": "^8.4.0"
   }
 }
